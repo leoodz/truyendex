@@ -10,4 +10,13 @@ const nextConfig = {
     },
 }
 
+async rewrites() {
+        return [
+          {
+            source: '/api/:path*',
+            destination: 'https://cors.zenno.moe/:path*',
+          },
+        ]
+      },
+
 module.exports = nextConfig
