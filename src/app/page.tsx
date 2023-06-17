@@ -34,17 +34,6 @@ export default function Home() {
                   >
                     Đọc Trộm Ngay
                   </Link>
-                  <a
-                    href="https://github.com/zennomi/truyendex"
-                    target="_blank"
-                    data-id="yba7hPeTSjk"
-                    className="btn btn-icon bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox"
-                  >
-                    <Iconify icon="eva:github-outline" className="text-lg" />
-                  </a>
-                  <small className="text-sm font-semibold uppercase align-middle ml-2">
-                    Source Code
-                  </small>
                 </div>
               </div>
             </div>
