@@ -21,9 +21,9 @@ import config from '../config';
  ************************/
 
 const MANGADEX_API_URL = 'https://api.mangadex.org';
-const CORS = config.corsUrl;
+const CORS = "https://cors.zenno.moe";
 
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = process.env.NODE_ENV === "production" ? "1" : "0";
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 /************************
 * FUNCTION DECLARATIONS
