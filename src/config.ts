@@ -1,6 +1,8 @@
+const isProductionEnv = true
+
 const config = {
-    corsUrl: "https://cors.zenno.moe",
-    true,
+    corsUrl: isProductionEnv ? "https://cors.zenno.moe" : "https://cors.zenno.moe",
+    isProductionEnv,
 }
 
 export default config
