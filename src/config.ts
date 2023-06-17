@@ -1,5 +1,5 @@
 const config = {
-    corsUrl: "https://cors.zenno.moe" : "https://cors.zenno.moe",
+    corsUrl: "https://cors.zenno.moe",
     true,
 }
 
