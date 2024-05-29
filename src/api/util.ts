@@ -21,7 +21,7 @@ import config from '../config';
  ************************/
 
 const MANGADEX_API_URL = 'https://api.mangadex.org';
-const CORS = "https://cors.zenno.moe";
+const CORS = "https://api.allorigins.win/raw?url=";
 
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 
@@ -116,7 +116,7 @@ export const createHttpsRequestPromise = function <T>(method: string, path: stri
     headers.set('x-requested-with', 'cubari')
     const httpsRequestOptions: AxiosRequestConfig = {
         method: method,
-        url: `${CORS}/v1/cors/${encodedUrl}`,
+        url: `${CORS}${MANGADEX_API_URL}${path}`,
         headers: {
             'x-requested-with': 'cubari'
         }
