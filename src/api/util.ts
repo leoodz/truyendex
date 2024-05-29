@@ -116,7 +116,8 @@ export const createHttpsRequestPromise = function <T>(method: string, path: stri
     headers.set('x-requested-with', 'cubari')
     const httpsRequestOptions: AxiosRequestConfig = {
         method: method,
-        url: `${CORS}${MANGADEX_API_URL}${path}`,
+        // url: `${CORS}${MANGADEX_API_URL}${path}`,
+        url: `${MANGADEX_API_URL}${path}`,
         headers: {
             'x-requested-with': 'cubari'
         }
