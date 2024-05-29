@@ -21,7 +21,7 @@ import config from '../config';
  ************************/
 
 const MANGADEX_API_URL = 'https://api.mangadex.org';
-const CORS = "https://api.allorigins.win/raw?url=";
+const CORS = "http://leoodz.ddns.net:8181/";
 
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 
